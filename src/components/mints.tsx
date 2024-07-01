@@ -262,7 +262,7 @@ function Mints() {
 
       <div className="min-h-screen p-[3vw] lg:p-[7vw] py-20 flex flex-col items-center justify-center gap-16 bg-[--blue] text-white">
         <p className="text-[55px] text-center lg:text-[70px] font-semibold leading-[1.2] text-center text-xl">Mint The Dynamic Open-Edition NFT</p>
-        <p className="text-center text-xl"> Featuring all sponsors and organizers who have joined so far. All funds go towards the cause and the image will update over time to reflect new sponsors who join us.</p>
+        <p className="text-center text-xl"> Featuring all sponsors and organizers who have joined so far. <br /> All funds go towards the cause and the image will update over time to reflect new sponsors who join us.</p>
         <div className="relative flex flex-col lg:flex-row items-center justify-center gap-14">
           <MagnetBackground />
           <Image
@@ -299,6 +299,17 @@ function Mints() {
               </button>
               <Link href="https://zora.co/collect/base:0x2dc3209d13165db78b86529012ec73aef86d2449/1">
                 View on zora
+              </Link>
+            </div>
+
+            <div>
+              <p className="text-center text-[0.6rem] lg:text-xs text-white/60 mb-4">
+                Consider sponsoring to have your name or brand added to the mint.
+              </p>
+              <Link
+                className="rounded-full font-[00] text-[--blue] bg-white px-4 py-2"
+                href="https://app.deform.cc/form/8bfa649c-8f6f-4c2c-a854-8e14fb0f3fef">
+                Add your name or logo
               </Link>
             </div>
           </div>
