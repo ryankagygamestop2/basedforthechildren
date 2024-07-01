@@ -61,27 +61,8 @@ function PhaseTwo() {
       </div>
 
       <p className="text-[35px] lg:text-[80px] font-semibold">
-        Sponsored Events
+        Sponsors
       </p>
-
-      <div className="flex text-center flex-col lg:flex-row items-center lg:items-start gap-12 py-5">
-        <div className="flex flex-col items-center gap-2 w-[90vw] lg:w-[450px]">
-          <p className="text-[25px] lg:text-[40px] font-semibold">
-            Limited Editions{" "}
-          </p>
-          <p className="text-xs lg:text-base">
-            Limited edition or exclusive items available from participating
-            artists and donors.
-          </p>
-        </div>
-
-        <div className="flex flex-col items-center gap-2 w-[450px]">
-          <p className="text-[25px] lg:text-[40px] font-semibold">Auctions </p>
-          <p className="text-xs lg:text-base">
-            Holding auctions at the Shaolin Art Center
-          </p>
-        </div>
-      </div>
 
       <div className="grid grid-cols-4 lg:grid-cols-5 gap-3 lg:gap-10 justify-between">
         {sponsors.map((sponsor, index) => (
@@ -111,7 +92,7 @@ function PhaseTwo() {
             href="https://app.deform.cc/form/8bfa649c-8f6f-4c2c-a854-8e14fb0f3fef/"
             className="rounded-full font-[500] text-[--blue] bg-white px-4 py-2"
           >
-            Fill out a form
+            Become a sponsor
           </Link>
         </div>
         <div className="relative">

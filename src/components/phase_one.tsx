@@ -102,8 +102,8 @@ function PhaseOne() {
 
       <p className="text-center text-[0.6rem] lg:text-xs text-white/60">
         All proceedings from art & sponsors go to enabling our mission to feed
-        children, distribute school supplies & build a church in the dominican
-        republic
+        children, distribute school supplies & build a church in the Dominican
+        Republic
       </p>
     </section>
   );
