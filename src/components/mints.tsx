@@ -262,7 +262,7 @@ function Mints() {
 
       <div className="min-h-screen p-[3vw] lg:p-[7vw] py-20 flex flex-col items-center justify-center gap-16 bg-[--blue] text-white">
         <p className="text-[55px] text-center lg:text-[70px] font-semibold leading-[1.2] text-center text-xl">Mint The Dynamic Open-Edition NFT</p>
-        <p className="text-center text-xl">Featuring all sponsors and organizers who have joined so far. All funds go towards the cause and the image will update over time to reflect new sponsors who join us.</p>
+        <p className="text-center text-xl"> Featuring all sponsors and organizers who have joined so far. All funds go towards the cause and the image will update over time to reflect new sponsors who join us.</p>
         <div className="relative flex flex-col lg:flex-row items-center justify-center gap-14">
           <MagnetBackground />
           <Image
