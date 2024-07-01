@@ -315,7 +315,14 @@ function Mints() {
           </div>
         </div>
       </div>
-
+      <p className={`${britney.className} text-center text-2xl md:text-[65px] leading-none`}>
+              fEaTUrEd <br/> Mints
+      </p>
+      <p className="text-center text-xl mb-8">
+        Featured mints from selected artists.
+        <br />
+        Proceeds go to the cause, with some mints also benefitting the artist.
+      </p>
       <div className="grid lg:grid-cols-3 w-[85vw] justify-between grid-cols-1">
         {mintToSupport.map((mint, index) => (
           <div key={index} className="flex items-center flex-col gap-4 mb-10">
@@ -333,6 +340,7 @@ function Mints() {
               <p className="font-semibold text-3xl">
                 {mint.title}
                 <br />
+                
                 For The Children
               </p>
               <button
